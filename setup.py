@@ -10,11 +10,9 @@ setup(
     'This is an easy-to-use soundfonts loader, player and audio renderer in python',
     author='Rainbow-Dreamer',
     author_email='1036889495@qq.com',
-    url='https://github.com/Rainbow-Dreamer/sf2_loader',
-    download_url=
-    'https://github.com/Rainbow-Dreamer/sf2_loader/archive/1.15.tar.gz',
+    url='https://github.com/snhobbs/sf2_loader',
     keywords=['soundfont', 'sf2', 'python'],
-    install_requires=['pydub', 'musicpy', 'numpy', 'py'],
+    install_requires=['pydub', 'musicpy', 'numpy', 'py', 'pyfluidsynth'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
