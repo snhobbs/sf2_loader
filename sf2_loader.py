@@ -310,6 +310,10 @@ class sf2_loader:
         self.current_sfid = 1
         self.current_bank = 0
         self.current_preset = 0
+
+        if "driver" not in kwargs:
+            kwargs["driver"] = None
+
         self._driver = kwargs.pop("driver")
         if file:
             self.load(file)
